@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>TouchSky Technologies | Web Development Company in Salem, Technology Services in Salem</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-language" content="en" />
+	<meta name="Title" content="Web Development Company in Salem, Technology Services in Salem" />
+	<meta name="Abstract"
+		content="Welcome to the TouchSky Technologies, Information about TouchSky products, business solutions and business consulting services." />
+	<meta name="Description"
+		content="We endeavor to maintain a relationship with our customers, Get In Touch in Touchsky Technologies." />
+	<meta name="keywords"
+		content="Touchsky Technologies,Touchsky,web solutions company india, Software, Solutions, Software Companies in Salem, Web Applications Development in Salem,Software Applications Development in Salem, Web Desinging in Salem, Seo Promoting in Salem, Website Development in Salem, IT Company in Salem,IT Company, Salem" />
+	<meta content="index,follow" name="Robots" />
+	<meta name="revisit-after" content="2 days" />
+	<meta name="copyright" content="2014 TouchSkytechnologies.com" />
+	<meta name="classification" content="Software Product Developement and Software Services" />
+	<meta name="author" content="www.TouchSkytechnologies.com" />
+	<meta name="rating" content="general" />
+	<meta name="distribution" content="global" />
+	<meta name="Language" content="English" />
+	<meta name="country" content="india" />
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,600' rel='stylesheet' type='text/css'>
+	<script type="text/JavaScript">
+		function resetForm()
+		{
+		document.getElementById("Contactform").reset();
+		}
+		function checkEmail(email)
+		{
+		if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email))
+		{
+		return true;
+		}
+		return false;
+		}
+		function validateForm()
+		{
+		var a = document.getElementById("name");
+		var x = document.getElementById("email");
+		var c = document.getElementById("message");		
+		if(a.value == "")
+		{
+		a.focus();
+		alert("Enter your Name");
+		return false;
+		}
+		if ((x.value==null)||(x.value=="")){
+		alert("Please Enter your Email ID")
+		x.focus()
+		return false;
+		}
+		if (checkEmail(x.value)==false){
+		x.value=""
+		alert("Invalid Email Address");
+		x.focus();
+		return false;
+		}
+		if(c.value == "")
+		{
+		c.focus();
+		alert("Enter Message");
+		return false;
+		}
+		document.getElementById("btnSubmit").value="Submit";
+		document.Contact.submit();
+		}
+		function validateForm1()
+			{	
+				var a = document.getElementById("mobname");
+				var x = document.getElementById("mobemail");
+				var c = document.getElementById("mobmessage");
+				if(a.value == "")
+				{
+				a.focus();
+				alert("Enter your Name");
+				return false;
+				}
+				if ((x.value==null)||(x.value=="")){
+				alert("Please Enter your Email ID")
+				x.focus()
+				return false;
+				}
+				if (checkEmail(x.value)==false){
+				x.value=""
+				alert("Invalid Email Address");
+				x.focus();
+				return false;
+				}
+				if(c.value == "")
+				{
+				c.focus();
+				alert("Enter Message");
+				return false;
+				}
+				document.getElementById("btnSubmit").value="Submit";
+				document.Contact.submit();
+			}
+	</script>
+</head>
+
+<body>
+	<div class="container-fluid " style="background-color:#fff;">
+		<div class="row-fluid">
+			<div class="span12" id="header">
+
+				<div class="logo">
+					<a href="index.html" class="brand" title="TouchSky Technologies" style="padding-left:10px;"><img
+							src="img/Logo.png" alt="Logo"></a>
+
+				</div>
+				<div class="navbar">
+					<div class="container-fluid" id="nav_page">
+						<a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</a>
+						<div class="nav-collapse collapse navbar-responsive-collapse">
+							<ul class="nav pull-right">
+								<li><a href="index.html" title="Home - TouchSky Technologies">Home</a></li>
+								<li><a href="about.html" title="About - TouchSky Technologies">About</a></li>
+								<li><a href="services.html" title="Services - TouchSky Technologies">Services</a></li>
+								<li><a href="portfolio.html" title="Portfolio - TouchSky Technologies">Portfolio</a>
+								</li>
+								<li><a href="careers.html" title="Careers - TouchSky Technologies">Careers</a></li>
+								<li class="active"><a href="contact.html"
+										title=" Contact - TouchSky Technologies">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- Content -->
+		<div class="row-fluid">
+			<div class="span12" id="image_back">
+				<img src="img/Header/Contact.jpg" alt="Contact - Header Image">
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span12" id="green_row">
+				<div class="container-fluid" id="green_page">
+					"Thank you for your interest in TouchSky Technologies. Please contact us using the information
+					below. To locate contacts in the TouchSky office closest to you, visit our websites. For additional
+					information on our Email."
+				</div>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span12" id="box_align">
+				<div class="container-fluid" id="content_page">
+					<div class="span4" id="box_green">
+						<img src="img/address.png" width="72" height="72" alt="Address Icon">
+						<h5 style=" padding: 0px 0 0px;"><u>Address</u></h5>
+						<div itemscope itemtype="http://schema.org/LocalBusiness" style="line-height:25px;">
+							<div itemprop="name"><strong>Touchsky Technologies</strong></div>
+							<meta itemprop="openingHours" style='display: none'
+								datetime="Mo,Tu,We,Th,Fr,Sa 09:00-18:00" />
+							<div itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address">
+								<div itemprop="streetAddress">Room no - 4, 2nd floor, <br>16/6 B Mahalaxmi complex,<br>
+									Udayappa Colony, Kumarasamypatty,</div>
+								<div><span itemprop="addressLocality">Salem</span>, <span itemprop="addressRegion">Tamil
+										Nadu, India.</span> <span itemprop="postalCode">636007.</span></div>
+							</div>
+						</div>
+					</div>
+					<div class="span4" id="box_black">
+						<img src="img/branch.png" width="72" height="72" alt="Phone Icon">
+						<h5 style=" padding: 0px 0 0px;"><u>Branch Address</u></h5>
+						<div itemscope itemtype="http://schema.org/LocalBusiness" style="line-height:25px;">
+							<div itemprop="name"><strong>Touchsky Technologies</strong></div>
+							<meta itemprop="openingHours" style='display: none'
+								datetime="Mo,Tu,We,Th,Fr,Sa 09:00-18:00" />
+							<div itemtype="http://schema.org/PostalAddress" itemscope="" itemprop="address">
+								<div itemprop="streetAddress">#19, Udayam Nagar, <br> 2nd Main Road,<br> Velachery,
+								</div>
+								<div><span itemprop="addressLocality">Chennai</span>, <span
+										itemprop="addressRegion">Tamil Nadu, India.</span> <span
+										itemprop="postalCode">600042.</span></div>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="span4" id="box_fooorg">
+						<img src="img/email.png" width="72" height="72" border="0" alt="">
+						<p style="margin-top:5px;">
+						<h5 style=" padding: 0px 0 0px;text-align:left;"><u>Email</u></h5>
+						<a title="Mail to contact@touchskytechnologies.com"
+							href="mailto: contact@touchskytechnologies.com" id="mailto" style=" line-height:35px;"><i
+								class="icon-envelope" id="sd"></i> contact@touchskytechnologies.com</a><br>
+						<a title="Mail to support@touchskytechnologies.com"
+							href="mailto: support@touchskytechnologies.com" id="mailto" style=" line-height:25px;"><i
+								class="icon-envelope" id="sd"></i> support@touchskytechnologies.com</a>
+						<h5 style=" padding: 0px 0 0px;text-align:left;"><u>Phone</u></h5>
+						<p style="color:#000;text-align:center;">
+							<i class="icon-globe" id="sd"></i> + 91 9944 7810 03
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span12" align="center" style=" padding:0px 10px;">
+				<h3>Enquiry</h3>
+				<form method="post" action="http://touchskytechnologies.com/contact.php" id="contactform">
+					<fieldset>
+						<div class="clearfix">
+							<div class="input">
+								<input type="text" placeholder="Name" name="name" id="name" value=""
+									class="span6 required" role="input" aria-required="true" style="border-radius:0px;">
+							</div>
+						</div>
+						<div class="clearfix">
+							<div class="input">
+								<input type="email" placeholder="Your Email" name="email" id="email" value=""
+									class="span6 required email" role="input" aria-required="true"
+									style="border-radius:0px;">
+							</div>
+						</div>
+						<div class="clearfix">
+							<div class="input">
+								<textarea rows="8" placeholder="Message" name="message" id="message"
+									class="span6 required" role="textbox" aria-required="true"
+									style="border-radius:0px;"></textarea>
+							</div>
+						</div>
+						<div class="actions">
+							<center>
+								<input type="submit" class="btn btn-large btn-block " role="textbox"
+									aria-required="true" style="max-width: 49%;border-radius:0px;" value="Submit"
+									onclick="return(validateForm());">
+							</center>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<div class="row-fluid hidden-phone" id="subrow_color">
+			<div class="container-fluid" id="page">
+				<div class="span12" id="subrow_padd">
+					<div class="span3" id="foot_line">
+						<ul class="unstyled">
+							<span id="subrow_head"><u>Web Design & Web Development</u></span>
+							<li id="footer_ser">Enterprise Application Integration</li>
+							<li id="footer_ser">Responsive Layout Websites</li>
+							<li id="footer_ser">E-Commerce Websites</li>
+							<li id="footer_ser">Web Portals</li>
+						</ul>
+					</div>
+					<div class="span3" id="foot_line">
+						<ul class="unstyled">
+							<span id="subrow_head"><u>Software Development</u></span>
+							<li id="footer_ser">Product Development</li>
+							<li id="footer_ser">Cloud Based Products</li>
+							<li id="footer_ser">Mobile products</li>
+							<li id="footer_ser">After Sale Support Application</li>
+						</ul>
+					</div>
+					<div class="span3" id="foot_line">
+						<ul class="unstyled">
+							<span id="subrow_head"><u>Customized Software Development</u></span>
+							<li id="footer_ser">Windows Applications</li>
+							<li id="footer_ser">Web Applications</li>
+							<li id="footer_ser">Tailor Made Software Solutions</li>
+							<li id="footer_ser">Software Change Management</li>
+						</ul>
+					</div>
+					<div class="span3">
+						<ul class="unstyled">
+							<span id="subrow_head"><u>Mobile Applications</u></span>
+							<li id="footer_ser">Android Mobile Applications</li>
+							<li id="footer_ser">IOS Mobile Applications</li>
+							<li id="footer_ser">Blackberry Mobile Applications</li>
+							<li id="footer_ser">Windows Mobile Applications</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row-fluid visible-phone" id="subrow_color">
+			<div class="container-fluid" id="page_mobile">
+				<div class="span12" id="subrow_padd">
+					<div class="span3" align="left">
+						<ul class="unstyled">
+							<span id="subrow_head"><u>Our Services</u></span>
+							<li id="footer_ser">Web Design & Web Development</li>
+							<li id="footer_ser">Software Development</li>
+							<li id="footer_ser">Customized Software Development</li>
+							<li id="footer_ser">Mobile Applications</li>
+							<li id="footer_ser"><a href="services.html" title="Click more detalis">Click
+									to more ...</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row-fluid">
+			<div class="span12" id="footer">
+				<div class="hidden-phone">
+					<div class="container-fluid" id="page_foot">
+						<a title="Home" id="font" href="index.html">Home</a> <span id="seprator"> | </span>
+						<a title="About" id="font" href="about.html">About</a> <span id="seprator"> | </span>
+						<a title="Services" id="font" href="services.html">Services</a> <span id="seprator"> | </span>
+						<a title="Portfolio" id="font" href="portfolio.html">Portfolio</a> <span id="seprator"> |
+						</span>
+						<a title="Careers" id="font" href="careers.html">Careers</a> <span id="seprator"> | </span>
+						<a title="Contact" id="font" href="contact.html">Contact</a> <span id="seprator"> | </span>
+						<a title="Privacy Policy" id="font" href="privacy.html" title="Privacy Policy">Privacy
+							Policy</a>
+						<span class="pull-right" style="font-size:12px;">&copy;TouchSky Technologies. All Rights
+							Reserved.</span>
+					</div>
+				</div>
+				<div class="visible-phone">
+					<div class="container-fluid" style="padding-top:7px;" align="center">
+						<a title="Home" id="font" href="index.html">Home</a> <span id="seprator"> | </span>
+						<a title="About" id="font" href="about.html">About</a> <span id="seprator"> | </span>
+						<a title="Services" id="font" href="services.html">Services</a> <span id="seprator"> | </span>
+						<a title="Portfolio" id="font" href="portfolio.html">Portfolio</a> <span id="seprator"> |
+						</span>
+						<a title="Careers" id="font" href="careers.html">Careers</a> <span id="seprator"> | </span>
+						<a title="Contact" id="font" href="contact.html">Contact</a> <span id="seprator"> | </span>
+						<a title="Privacy Policy" id="font" href="privacy.html" title="Privacy Policy">Privacy
+							Policy</a>
+						<p style="font-size:12px;text-align:center;line-height:25px;">&copy;TouchSky Technologies. All
+							Rights Reserved.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
